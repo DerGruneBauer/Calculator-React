@@ -1,0 +1,12 @@
+.buttonBox {
+    width: auto;
+    height: 45%;
+    padding: 20px;
+    background-color: var(--keypadBackground);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+

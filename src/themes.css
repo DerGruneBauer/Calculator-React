@@ -1,0 +1,53 @@
+.themeOne, :root {
+    --titleText: white;
+    --numberText: hsl(221, 14%, 31%);
+    --mainBackground: hsl(222, 26%, 31%);
+    --keypadBackground: hsl(223, 31%, 20%);
+    --outputBackground: hsl(224, 36%, 15%);
+    --equalButton: hsl(6, 63%, 50%);
+    --equalButtonShadow: hsla(6, 70%, 34%, 1);
+    --equalButtonHover: hsl(6, 63%, 44%);
+    --equalButtonText: white;
+    --numberButtonBackground: hsl(30, 25%, 89%);
+    --numberButtonShadow: hsla(28, 16%, 65%, 1);
+    --numberButtonHover: hsl(30, 25%, 83%);
+    --resetButtonBackground: hsl(225, 21%, 49%);
+    --resetButtonShadow: hsla(224, 28%, 35%, 1);
+    --resetButtonHover: hsl(225, 21%, 43%);
+  }
+
+  .themeTwo {
+    --titleText: black;
+    --numberText: hsl(60, 10%, 19%);
+    --mainBackground: hsl(0, 0%, 90%);
+    --keypadBackground: hsl(0, 5%, 81%);
+    --outputBackground: hsl(0, 0%, 98%);
+    --equalButton: hsl(25, 98%, 40%);
+    --equalButtonShadow: hsl(25, 99%, 27%);
+    --equalButtonHover: hsl(25, 92%, 39%);
+    --equalButtonText: white;
+    --numberButtonBackground: hsl(45, 7%, 89%);
+    --numberButtonShadow: hsl(35, 11%, 61%);
+    --numberButtonHover: hsl(45, 7%, 85%);
+    --resetButtonBackground: hsl(185, 42%, 37%);
+    --resetButtonShadow: hsl(185, 58%, 25%);
+    --resetButtonHover: hsl(185, 38%, 35%);
+  }
+
+  .themeThree {
+    --titleText: hsl(52, 100%, 62%);
+    --numberText: hsl(52, 100%, 62%);
+    --mainBackground: hsl(268, 75%, 9%);
+    --keypadBackground: hsl(268, 71%, 12%);
+    --outputBackground: hsl(270, 71%, 13%);
+    --equalButton: hsl(176, 100%, 44%);
+    --equalButtonShadow: hsl(177, 92%, 70%);
+    --equalButtonHover: hsl(176, 90%, 40%);
+    --equalButtonText: hsl(198, 20%, 13%);
+    --numberButtonBackground: hsl(268, 47%, 21%);
+    --numberButtonShadow: hsl(290, 70%, 36%);
+    --numberButtonHover: hsl(268, 55%, 26%);
+    --resetButtonBackground: hsl(281, 89%, 26%);
+    --resetButtonShadow: hsl(285, 91%, 52%);
+    --resetButtonHover: hsl(281, 83%, 23%);
+  }

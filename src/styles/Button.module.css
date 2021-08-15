@@ -1,0 +1,48 @@
+
+/* Standard button format */
+.button {
+   border-radius: 7px;
+   border: none;
+   font-size: 32px;
+}
+.button:hover {
+   cursor: pointer;
+}
+
+/* Numbers and Misc. Buttons */
+.number {
+   background-color: var(--numberButtonBackground);
+   box-shadow: inset 0px -9px 0px -5px var(--numberButtonShadow);
+   color: var(--numberText);
+}
+.number:hover {
+   background-color: var(--numberButtonHover);
+}
+
+/* Delete and Reset Buttons */
+.button[data-color="blue"] {
+   background-color: var(--resetButtonBackground);
+   box-shadow: inset 0px -9px 0px -5px var(--resetButtonShadow);
+   color: white;
+   font-size: 15px;
+}
+.button[data-color="blue"]:hover {
+   background-color: var(--resetButtonHover);
+}
+
+/* Equal Button */
+.button[data-color="red"] {
+   background-color: var(--equalButton);
+   box-shadow: inset 0px -9px 0px -5px var(--equalButtonShadow);
+   color: var(--equalButtonText);
+   font-size: 25px;
+}
+.button[data-color="red"]:hover {
+   background-color: var(--equalButtonHover);
+}
+
+/* Large Buttons */
+.button[data-size="2"] {
+   grid-column-end: span 2;
+}
+
